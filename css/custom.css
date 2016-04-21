@@ -1,0 +1,72 @@
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+.panel{
+  border: none;
+}
+.panel-heading{
+  border-radius: 30px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#aboutusdata{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+
+}
+
+#aboutusdata p{
+  font-size: 16px;
+}
+.section-heading{
+  text-align: center;
+}
+
+#contact .panel{
+  background: none;
+  color: white;
+}
+.navbar{
+  background: black;
+}
+header{
+  background: none;
+}
+
+.testimonial-row{
+  clear: both;
+  display: block
+}
+
+.testimonial-col{
+  padding-left: 20px;
+  padding-right:20px;
+  margin: 30px 0px;
+}
+
+.testimonial-msg :before{
+  "color: #bbb;
+  font-size: 5em;
+  content: "\201C";
+  position: absolute;
+  margin: -15px 0 0 -20px;
+  font-family: Georgia, serif;"
+
+}
+
+.timeline-image img{
+  margin: auto;
+}
+@media (max-width:768px) {
+  #carousel-example-generic{
+    margin-top: 65px;
+  }}
+  @media (min-width:768px) {
+    #carousel-example-generic{
+      margin-top: 110px;
+    }}
